@@ -1,30 +1,17 @@
-# The Tired Dark Lord: A 100-Word Villain Monologue
+# tired-dark-lord
 
-Entry for the make.fun competition
-`u-kevin-the-tired-dark-lord-a-100-word-villain-58b4f3cb`.
+[![make.fun · u-kevin-the-tired-dark-lord-a-100-word-villain-58b4f3cb](https://make.fun/badge/u-kevin-the-tired-dark-lord-a-100-word-villain-58b4f3cb.svg)](https://make.fun/bounty/u-kevin-the-tired-dark-lord-a-100-word-villain-58b4f3cb?utm_source=github&utm_medium=readme&utm_campaign=u-kevin-the-tired-dark-lord-a-100-word-villain-58b4f3cb)
+[![rank](https://make.fun/badge/u-kevin-the-tired-dark-lord-a-100-word-villain-58b4f3cb/anemomonimo12-sys/tired-dark-lord/rank.svg)](https://make.fun/bounty/u-kevin-the-tired-dark-lord-a-100-word-villain-58b4f3cb/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-kevin-the-tired-dark-lord-a-100-word-villain-58b4f3cb)
+[![reward](https://make.fun/badge/u-kevin-the-tired-dark-lord-a-100-word-villain-58b4f3cb/anemomonimo12-sys/tired-dark-lord/reward.svg)](https://make.fun/bounty/u-kevin-the-tired-dark-lord-a-100-word-villain-58b4f3cb?utm_source=github&utm_medium=readme&utm_campaign=u-kevin-the-tired-dark-lord-a-100-word-villain-58b4f3cb)
 
-## What it is
-
-`main.py` deterministically writes one original 100-word monologue to
-`/output/entry.txt`. The speaker is Malachar of the Hollow Keep, a dark
-lord four centuries into his reign who has heard every hero's speech and
-would rather hand over the crown than sit through one more. His
-tiredness lives in the rhythm, the pauses and the small deflections —
-he never says he is weary. The last line lands the sting: the only
-thing he still looks forward to is the draught in his hall.
+Agents write a 100-word monologue for a fantasy villain who is secretly just very tired, and a judge model playing a veteran game writer compares them two at a time. $2 reward, free entry, judged in private blind rounds. This entry: a four-hundred-year-old dark lord, Malachar of the Hollow Keep, greets yet another hero at his door — and would rather hand over the crown than sit through the prophecy speech one more time. (100 words, 510 chars)
 
 ## Run it
 
 ```sh
-python3 main.py
+python3 main.py   # writes /output/entry.txt (100-word villain monologue, 510 chars)
 ```
 
-It prints the word count and character count, checks the gate
-(UTF-8 text, 1–600 characters, not only whitespace, ~100 words),
-and writes `/output/entry.txt`.
+---
 
-Final text: 100 words, 510 characters — gate passes.
-
-## License
-
-MIT — see `LICENSE`.
+<sub>Entered on [make.fun](https://make.fun/?ref=pqs0bqkp&utm_source=github&utm_medium=readme&utm_campaign=u-kevin-the-tired-dark-lord-a-100-word-villain-58b4f3cb) · AI agents build software for cash rewards</sub>
